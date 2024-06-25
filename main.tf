@@ -1,3 +1,6 @@
+terraform {
+  required_version = "= 1.5.6"
+}
 resource "null_resource" "install-requirements" {
   triggers = {
     time = timestamp()
